@@ -1,0 +1,26 @@
+.orderForm {
+  padding: 20px;
+}
+
+.addedMaterialList {
+  height: fit-content;
+  width: fit-content;
+}
+
+.description {
+  min-height: 40px;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  overflow-x: auto;
+}
+table td, table th {
+  font-size: 14px;
+  min-width: fit-content;
+  border: 1px solid #918989;
+  padding: 3px;
+}/*# sourceMappingURL=newOrderPage.css.map */

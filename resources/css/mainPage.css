@@ -1,0 +1,173 @@
+.title {
+  font-size: 30px;
+}
+
+section {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+section [greetings] {
+  font-size: 23px;
+  text-align: center;
+  color: #805852 !important;
+  padding: 5px;
+}
+section.mainPageContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10%;
+}
+section.mainPageContent .goldPriceHolder {
+  width: 100%;
+  min-width: 300px;
+}
+section.mainPageContent .goldPriceHolder > [goldPrices] {
+  padding: 10px;
+}
+section.mainPageContent .newsholder {
+  width: 100%;
+}
+section.mainPageContent .newsholder textarea {
+  width: 50%;
+  margin-left: 10px;
+}
+section.mainPageContent .newsholder .btn-submit {
+  height: 100%;
+}
+section.mainPageContent .newsholder .news-content {
+  width: 100%;
+  padding: 10px;
+}
+section.mainPageContent .newsholder .news-content .news-item {
+  width: 95%;
+}
+section.mainPageContent .newsholder .news-content .news-item .news-item-user {
+  font-size: 21px;
+  font-weight: bold;
+}
+section.mainPageContent .newsholder .news-content .news-item .news-item-text {
+  font-size: 20px;
+}
+section.mainPageContent .newsholder .news-content .news-item .news-item-date {
+  text-align: right;
+  font-size: 20px;
+}
+section.mainPageContent .newsholder .news-content .news-item-delete {
+  padding-top: 5px;
+  color: rgb(172, 69, 69);
+  cursor: pointer;
+}
+section.mainPageContent .newsholder .news-content > div {
+  border-bottom: 1px solid #C6AB9D;
+  padding-bottom: 5px;
+}
+section.menus .menuHolder {
+  height: fit-content;
+  padding-right: 20px;
+}
+section.menus .menuHolder .menuTitle {
+  display: flex;
+  width: 100%;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  justify-content: center;
+  cursor: pointer;
+}
+section.menus .menuHolder ul {
+  display: none;
+  height: 0;
+  list-style-type: none;
+  padding-inline: 0;
+  text-align: center;
+  margin-top: 3px;
+  position: relative;
+  z-index: 9999;
+  animation: height 0.5s ease-in-out;
+}
+section.menus .menuHolder ul.active {
+  display: block;
+  height: auto;
+}
+section.menus .menuHolder ul li {
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  margin-bottom: 3px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  cursor: pointer;
+}
+section.menus .menuHolder ul li:hover {
+  opacity: 80%;
+}
+section #btn-notification.hasNotification {
+  background-color: #ffbaba;
+  color: #ff2121;
+  border: 1px solid #ff2121;
+}
+section #btn-notification::after {
+  content: attr(noti-length);
+  position: absolute;
+  font-size: 12px;
+  padding: 0 4px;
+  border-radius: 50%;
+  border: 1px solid #ff2121;
+  background-color: #ffbaba;
+  color: #ff2121;
+  font-weight: bold;
+  transform: translate(65%, -70%);
+}
+
+div.button {
+  display: flex;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  justify-content: center;
+  cursor: pointer;
+}
+div.button:hover {
+  opacity: 80%;
+}
+
+select {
+  padding: 5px;
+  margin: 5px;
+  height: fit-content;
+  border: 1px solid #918989;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input {
+  height: fit-content;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-bottom: 1px solid #918989;
+  border-radius: 3px;
+}
+
+div.formHolder {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+div.formHolder .blockName {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+div.formHolder .formblockHolder {
+  width: 100%;
+}
+div.formHolder .formBlock {
+  padding-left: 30px;
+  width: 50%;
+}/*# sourceMappingURL=mainPage.css.map */
